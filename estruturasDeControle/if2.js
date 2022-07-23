@@ -8,8 +8,8 @@ teste1(6);
 teste1(8);
 
 function teste2(num) {
-    if(num > 7); {
-        console.log(num)
+    if(num > 7); { // Atenção a posição do ";". 
+        console.log(num) // O bloco fica fora da condição e simplesmente imprime o valor
     }
 }
 
